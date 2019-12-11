@@ -177,7 +177,20 @@ body, html {
 
   <div class="w3-row-padding" style="margin-top:64px">
     <div class="w3-col l3 m6">
-      <img src="#" />
+	    <script>
+	    	function change(value) {
+			var pic;
+			if (value === 0) {
+				pic = ""
+			} else {
+			 	pic = ""
+			}
+			document.getElementById('image').src=pic;
+		}
+	    </script>
+      <img src="#" id="image" />
+	    <button onclick="change(1)">Back</button>
+	    <button onclick="change(0)">Next</button>
     </div>
     <div class="w3-col l3 m6">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVzuTFuSyFbgS4OMBZzLtWlPXF9NqNiESeo_ZDALPHu75qZMsL" height="230pt" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coding">
