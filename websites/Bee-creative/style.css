@@ -129,14 +129,14 @@ nav {
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(2000px at 1900px -100px);
-    -webkit-clip-path: circle(2000px at 1900px -100px);
+    clip-path: circle(100px at 90px -10px);
+    -webkit-clip-path: circle(100px at 90px -10px);
     transition: all 1s ease-out;
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(2000px at 1900px -100px);
-    -webkit-clip-path: circle(2000px at 1900px -100px);
+    clip-path: circle(100px at 90px -10px);
+    -webkit-clip-path: circle(100px at 90px -10px);
     pointer-events: all;
   }
   .landing {
