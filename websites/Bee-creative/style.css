@@ -135,8 +135,8 @@ nav {
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(110% at 110% -10%);
-    -webkit-clip-path: circle(110% at 110% -10%);
+    clip-path: circle(210% at 110% -10%);
+    -webkit-clip-path: circle(120% at 210% -10%);
     pointer-events: all;
   }
   .landing {
