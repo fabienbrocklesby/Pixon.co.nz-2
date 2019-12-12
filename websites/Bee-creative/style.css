@@ -129,7 +129,7 @@ nav {
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
+    clip-path: circle(210% at 210% -10%);
     -webkit-clip-path: circle(210% at 210%% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
