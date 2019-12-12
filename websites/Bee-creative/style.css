@@ -129,14 +129,14 @@ nav {
     height: 100vh;
     width: 100%;
     flex-direction: column;
-    clip-path: circle(100000pt at 100000pt -10pt);
-    -webkit-clip-path: circle(100000pt at 100000pt -10pt);
+    clip-path: circle(2000vw at 1900vw -100vw);
+    -webkit-clip-path: circle(2000vw at 1900vw -100vw);
     transition: all 1s ease-out;
     pointer-events: none;
   }
   .nav-links.open {
-    clip-path: circle(100000pt at 100000pt -10pt);
-    -webkit-clip-path: circle(100000pt at 100000pt -10pt);
+    clip-path: circle(2000vw at 1900vw -100vw);
+    -webkit-clip-path: circle(2000vw at 1900vw -100vw);
     pointer-events: all;
   }
   .landing {
