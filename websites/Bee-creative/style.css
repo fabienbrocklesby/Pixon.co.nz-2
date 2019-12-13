@@ -133,7 +133,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
+  background: purple;
 }
 
 /* CAUTION: IE hackery ahead */
