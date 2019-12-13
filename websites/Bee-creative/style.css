@@ -123,7 +123,7 @@ nav {
     z-index: 2;
   }
 
-  .nav-links {
+    .nav-links {
     position: fixed;
     background: #5b78c7;
     height: 100vh;
