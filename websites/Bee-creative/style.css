@@ -137,6 +137,20 @@ select {
   background: white;
 }
 
+input {
+  margin: 50px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ae5fce;
+  background: white;
+}
+
 select::-ms-expand { 
     display: none; 
 }
